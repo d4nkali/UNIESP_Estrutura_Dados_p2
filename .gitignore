@@ -1,0 +1,16 @@
+# Pasta venv
+
+.venv/
+.venv/lib
+
+# Pasta do vscode
+
+.vscode/*
+
+# Pasta do Pycharm
+
+.idea/*
+
+# Documentos PDF
+
+*.pdf
