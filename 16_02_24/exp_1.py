@@ -9,8 +9,12 @@ Original file is located at:
 
 """
 
-soma = 0
-n=10
-for i in range(n + 1):
-    soma = soma + i
-print(soma)
+soma = 0    # Cria a variavel 'soma' e deixa vazia
+n=10        # Cria a variavel 'n' com o valor de 10
+
+for i in range(n + 1):      # Cria um loop com 'for' onde adiciona os valore de n + 1 ao 'i'
+    soma = soma + i # Define que a variavel 'soma' será o 'i' + a variavel 'soma'
+
+print(soma)     # Imprime o valor final de soma
+
+# FIM!
