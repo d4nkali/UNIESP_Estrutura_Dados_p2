@@ -1,4 +1,6 @@
-# Questão 9 - Escreva um programa que leia uma lista de nomes e retorne uma nova lista com apenas os nomes que começam com a letra 'A.
+# Questão 10 - Crie um programa que simule o jogo "Pedra, Papel e Tesoura" entre o usuário e o computador.
+# O programa deve solicitar a escolha do usuário e, em seguida, escolher aleatoriamente a escolha do 
+# computador e determinar o vencedor
 
 # Aluno: Danilo Pereira Viana - P2-B
 

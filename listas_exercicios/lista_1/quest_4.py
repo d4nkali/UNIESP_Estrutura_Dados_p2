@@ -11,6 +11,7 @@ list_numero = []
 
 # Cria um loop com o for 10 vezes
 for i in range(10):
+    
     sorteio_numeros = randint(1, 100) # Escolhe um número entre 1 a 100 a armazena em 'sorteio_numeros'
     list_numero.append(sorteio_numeros) # Adiciona o número de 'sorteio_numeros' e adiciona a lista
 

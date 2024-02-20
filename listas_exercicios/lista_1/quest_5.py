@@ -19,6 +19,7 @@ for i in range(10):
     list_numero.append(sorteio_numeros) # Adiciona o número de 'sorteio_numeros' e adiciona a lista
     
     if (sorteio_numeros % 2) == 0: # Se o número for par, então:
+        
         list_numero_par.append(sorteio_numeros) # Adiciona o número a lista de pares
         quant_par += 1 # Adiciona + 1 a contagem de números pares
 

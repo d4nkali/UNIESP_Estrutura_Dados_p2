@@ -2,6 +2,7 @@
 
 # Aluno: Danilo Pereira Viana - P2-B
 
+
 # Pergunta para o usuário digitar um número e armazena em uma variavel 'numero'
 numero = int(input("Digite um numero: "))
 
@@ -10,7 +11,9 @@ print(f"Numeros pares de 0 até {numero}:")
 
 # Cria um loop for que intera os numeros de 0 até o que o do usúario digitou em 'numero'
 for numero in range(numero + 1):
+
     if numero % 2 == 0: # Se o número for dividido por 2 e o resto igual a zero, então:
+        
         print(numero) # Imprime esse numero
 
 # FIM!
