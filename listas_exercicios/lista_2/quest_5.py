@@ -19,7 +19,7 @@ class Pessoa: # Cria a classe Pessoa
     def falar(self): # Cria a função 'falar'
     
         # Imprime as informações
-        return print(f"Olá {self.nome} com idade de {self.idade}")
+        return print(f"Olá {self.nome} com idade de {self.idade} anos")
     
 
 pessoa_1 = Pessoa("Carlos", 18) # Cria o objeto 'conta_1' com atributo do titular

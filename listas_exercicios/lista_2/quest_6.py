@@ -31,6 +31,6 @@ exebir_total = produto_1.calcular_total() # Chama a função 'calcular_total'
 
 
 # Imprime as informações
-print(f"O total a ser pago é de: R${exebir_total}")
+print(f"O total a ser pago é de: R${exebir_total:.2f}")
 
 # FIM!

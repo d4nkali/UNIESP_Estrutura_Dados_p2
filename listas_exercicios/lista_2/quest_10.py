@@ -41,6 +41,6 @@ perg_aumento = float(input("Digite em quantos porcentos sera o aumento: "))
 novo_salario = funcionario_1.aumentar_salario(perg_aumento)
 
 # Imprime os resultados
-print(f"O novo salario apos o reajuste é de R${novo_salario}")
+print(f"O novo salario apos o reajuste é de R${novo_salario:.2f}")
 
 # FIM!
