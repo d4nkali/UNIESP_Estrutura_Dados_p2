@@ -9,7 +9,7 @@ Aluno: Danilo Pereira Viana - P2-B
 
 pi = 3.14159265359 # Define o valor de pi
 
-class Circulo: # Cria a classe circulo
+class Circulo: # Cria a classe Circulo
 
     # Com o construtor, define o atributo raio
     def __init__(self, raio):

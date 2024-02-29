@@ -7,7 +7,7 @@ Aluno: Danilo Pereira Viana - P2-B
 
 '''
 
-class Livro: # Cria a classe circulo
+class Livro: # Cria a classe Livro
 
     # Com o construtor, define os seguintes atributos (titulo, autor, resumo)
     def __init__(self, titulo, autor, resumo): 

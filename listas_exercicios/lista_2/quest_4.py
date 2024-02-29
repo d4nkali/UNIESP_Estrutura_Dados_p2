@@ -7,7 +7,7 @@ Aluno: Danilo Pereira Viana - P2-B
 
 '''
 
-class ContaBancaria:  # Cria a classe circulo
+class ContaBancaria:  # Cria a classe ContaBancaria
 
     # Com o construtor, define os seguintes atributos (titular, saldo com valor inicial de 890.90)
     def __init__(self, titular, saldo = 890.80):
