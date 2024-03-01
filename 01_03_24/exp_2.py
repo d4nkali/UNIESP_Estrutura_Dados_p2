@@ -1,3 +1,5 @@
+# Exemplo 2 - Selection sort
+
 vetor = [3,8,7,2,6,1]
 n=len(vetor)
 print(vetor)
