@@ -107,7 +107,7 @@ expressao = '(a+b)*)(a+b)'
 verifica(expressao)
 
 
-arquivo = open("conjunto1.txt", "r")
+arquivo = open("08_03_24/conjunto1.txt", "r")
 linhas = arquivo.readlines()
 for linha in linhas:
     print("Expressão Correta" if verifica(linha) == 1 else "Expressão Incorreta", "->", linha)
