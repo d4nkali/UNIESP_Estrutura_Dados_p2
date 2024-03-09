@@ -23,4 +23,4 @@ for i in lista_num: # Intera para encontrar o maior número da lista
 
 
 # Imprime o resultado
-print(f"O maior número da lista é: {lista_num_maior}")
+print(f"O maior número da lista {lista_num} é: {lista_num_maior}")
