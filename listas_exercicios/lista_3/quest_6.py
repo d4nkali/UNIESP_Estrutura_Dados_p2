@@ -1,6 +1,6 @@
 """
 
-Questão 6 -
+Questão 6 - Escreva um programa que cria uma lista de strings e exibe a mais longa palavra da lista.
 
 Aluno: Danilo Pereira Viana - P2-B
 
