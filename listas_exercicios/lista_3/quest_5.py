@@ -12,7 +12,7 @@ lista_nomes = ["Arnaldo", "Cleiton", "Akira", "Osvaldo", "Senna", "Fábio", "Dan
 
 cont_a = 0 # Cria um contador vazio
 
-for i in lista_nomes: # Intera para contar quantos nomes tem na lista
+for i in lista_nomes: # Intera para contar quantos nomes que começam com 'A' tem na lista
 
     if i[0].upper() == "A": # Se o nome começar com 'A', então:
 
