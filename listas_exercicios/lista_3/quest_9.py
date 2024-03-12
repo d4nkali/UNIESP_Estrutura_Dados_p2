@@ -16,7 +16,7 @@ max_random_2 = r(8, 42)
 
 # Cria a 2 listas com numeros inteiros
 lista_num = list(range(1, max_random))
-lista_num_2 = list(range(1, max_random_2))
+lista_num_2 = list(range(8, max_random_2))
 
 lista_num_iguais = [] # Cria uma lista vazia para armazenar os números iguais
 
@@ -28,4 +28,10 @@ for i in lista_num: # Intera para encontrar os números iguais das listas
 
 
 # Imprime o resultado
-print(f"Os números que são iguais nas duas listas são: {lista_num_iguais}")
+if lista_num_iguais: # Se tiver números na lista, então:
+
+    print(f"Os números que são iguais nas duas listas são: {lista_num_iguais}")
+
+else: # Se estiver vazia, então:
+
+    print("Não há números iguais nas duas listas.")
