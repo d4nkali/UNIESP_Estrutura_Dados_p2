@@ -17,7 +17,7 @@ lista_num_impar= [] # Cria uma lista vazia para armazenar os números impares
 
 for i in lista_num: # Intera para encontrar os números impares da lista
 
-    if i % 2 != 0: # Se numero o número for impar, então:
+    if i % 2 != 0: # Se o número for impar, então:
 
         lista_num_impar += [i] # Adiciona o número a lista
 
