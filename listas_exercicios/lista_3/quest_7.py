@@ -23,4 +23,10 @@ for i in lista_num: # Intera para encontrar os números pares da lista
 
 
 # Imprime o resultado
-print(f"Os números pares da lista {lista_num} são: {lista_num_par}")
+if lista_num_par: # Se tiver números na lista, então:
+
+    print(f"Os números pares da lista {lista_num} são: {lista_num_par}")
+
+else: # Se estiver vazia, então:
+
+    print("Não há números pares na lista.")

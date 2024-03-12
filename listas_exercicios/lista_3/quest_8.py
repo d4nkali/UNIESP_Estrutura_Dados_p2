@@ -23,4 +23,10 @@ for i in lista_num: # Intera para encontrar os números impares da lista
 
 
 # Imprime o resultado
-print(f"Os números impares da lista {lista_num} são: {lista_num_impar}")
+if lista_num_impar: # Se tiver números na lista, então:
+
+    print(f"Os números impares da lista {lista_num} são: {lista_num_impar}")
+
+else: # Se estiver vazia, então:
+
+    print("Não há números impares na lista.")
