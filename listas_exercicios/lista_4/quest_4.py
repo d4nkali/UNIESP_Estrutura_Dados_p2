@@ -30,4 +30,4 @@ def descobrir_seg_menor_num(vetor): # Cria a função 'descobrir_seg_menor_num'
     return seg_menor_num # Retorna o valor de 'seg_menor_num'
 
 # Imprime os resultados
-print(f"O segundo menor número da lista {vetor} é: {descobrir_seg_menor_num(vetor)}")
+print("O segundo menor número da lista ", vetor, "é: ", descobrir_seg_menor_num(vetor))
