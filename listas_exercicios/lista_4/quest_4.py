@@ -1,4 +1,4 @@
-""""
+"""
 
 Questão 4 - Crie uma função que recebe um vetor de números inteiros e retorna o segundo menor número.
 Certifique-se de que sua função funcione mesmo se houver números duplicados no vetor.
@@ -8,15 +8,15 @@ Aluno: Danilo Pereira Viana - P2-B
 
 """
 
-lista_num = [1, 1, 4, 5, 7, 8, 11, 19] # Cria uma lista com numeros inteiros
+vetor = [1, 1, 4, 5, 7, 8, 11, 19] # Cria uma lista com numeros inteiros
 
-def descobrir_seg_menor_num(lista_num): # Cria a função 'descobrir_seg_menor_num'
+def descobrir_seg_menor_num(vetor): # Cria a função 'descobrir_seg_menor_num'
 
     # Cria 2 variaveis com valores iniciais infinito para armazernar os numeros menores futuramente
     menor_num = float('inf')
     seg_menor_num = float('inf')
     
-    for i in lista_num: # Cria um loop e incrementa os numeros da lista
+    for i in vetor: # Cria um loop e incrementa os numeros da lista
 
         if i < menor_num: # Se a variavel 'menor_num' for menor que o numero na lista
 
@@ -30,4 +30,4 @@ def descobrir_seg_menor_num(lista_num): # Cria a função 'descobrir_seg_menor_n
     return seg_menor_num # Retorna o valor de 'seg_menor_num'
 
 # Imprime os resultados
-print(f"O segundo menor número da lista {lista_num} é: {descobrir_seg_menor_num(lista_num)}")
+print(f"O segundo menor número da lista {vetor} é: {descobrir_seg_menor_num(vetor)}")
