@@ -7,30 +7,39 @@ Aluno: Danilo Pereira Viana - P2-B
 
 """
 
-# Importa a função randint e apelida de 'r'
-from random import randint as r
+vetor = [51, 2, 76, 23, 90, 32, 45, 54, 18] # Cria o vetor com os seguintes elementos
 
-max_random =r(1, 130) # Aleatoriza o número maximo da lista
+def calc_max(vetor): # Cria a função 'calc_max'
 
-lista_num = list(range(1, max_random)) # Cria uma lista com numeros inteiros
+    maximo = vetor[0]
 
-lista_num_maior = lista_num[0] # Cria uma variavel para armazenar o maior número
-lista_num_menor = lista_num[0] # Cria uma variavel para armazenar o menor número
+    for i in vetor:
 
-for i in lista_num: # Intera para encontrar o maior número da lista
+        if i > maximo:
 
-    if i > lista_num_maior: # Se encontar um número maior que o que esta em 'lista_num_maior'
+            maximo = i
 
-        lista_num_maior = i # Adiciona o número a variavel
+    return maximo
 
 
-for j in lista_num: # Intera para encontrar o menor número da lista
+def calc_min(vetor): # Cria a função 'calc_min'
+    
+    minimo = vetor[0]
 
-    if j <= lista_num_menor: # Se encontar um número menor que o que esta em 'lista_num_menor'
+    for j in vetor:
 
-        lista_num_menor = j # Adiciona o numero a variavel
+        if j < minimo:
+
+            minimo = j
+
+    return minimo
 
 
-# Imprime o resultado
-print(f"O maior número da lista {lista_num} é: {lista_num_maior}")
-print(f"O menor número da lista {lista_num} é: {lista_num_menor}")
+# Executa as funções
+maximo = calc_max(vetor)
+minimo = calc_min(vetor)
+
+
+# Imprime os resultados
+print("O maior numero é:", maximo)
+print("O menor numero é:", minimo)
